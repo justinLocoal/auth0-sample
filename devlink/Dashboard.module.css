@@ -1,0 +1,34 @@
+.dashboard {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.dashboard-main {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.dashboard-content {
+  flex: 1;
+}
+
+.dashboard-main-content-2 {
+  min-height: 95vh;
+  padding: 0px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 479px) {
+  .dashboard-main-content-2 {
+    padding: 24px;
+  }
+}
+
+.home-screen {
+  padding: 40px;
+}

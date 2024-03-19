@@ -1,0 +1,9 @@
+.dashboard-page-header {
+  display: flex;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+}

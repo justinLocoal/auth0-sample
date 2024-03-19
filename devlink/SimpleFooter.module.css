@@ -1,0 +1,37 @@
+.dashboard-footer {
+  padding: 30px 40px 14px;
+  text-align: center;
+}
+
+.paragraph-small {
+  color: var(--lightGrey-15ee4c68);
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+.no-margin {
+  margin: 0px 4px 0px 0px;
+}
+
+.paragraph-small.light {
+  color: var(--softGrey-ec0f7209);
+}
+
+.simple-link {
+  transition: color 200ms ease;
+  color: var(--lightGrey-15ee4c68);
+  text-decoration: underline;
+}
+
+.simple-link:hover {
+  color: var(--lightBlue-289e1aaf);
+}
+
+.simple-link.light {
+  color: var(--softGrey-ec0f7209);
+}
+
+.simple-link.light:hover {
+  color: var(--lightGrey-15ee4c68);
+}
